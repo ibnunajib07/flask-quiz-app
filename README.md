@@ -1,3 +1,19 @@
+INSTALLATION
+$ git clone https://github.com/ibnunajib07/flask-quiz-app.git
+
+# go to the directory
+$ cd flask-quiz-app
+
+# use virtual env if you want
+$ virtualenv ENV && source ENV/bin/activate
+
+# generate static project
+$ pip install -r requirements.txt
+
+# export flask app and run
+$ set FLASK_APP=main.py
+$ flask run
+
 Beranda
 ![image](https://github.com/ibnunajib07/flask-quiz-app/assets/77886972/1e431bf5-15a3-4a2e-a006-a85a23efbcc7)
 
